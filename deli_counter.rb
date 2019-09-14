@@ -10,5 +10,6 @@ def line(array)
     array.length.times { |index|
       queue += " #{index}. #{array[index]}"
     }
+    puts queue
   end
 end
