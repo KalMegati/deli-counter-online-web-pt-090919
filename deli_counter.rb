@@ -13,3 +13,4 @@ def line(array)
     puts queue
   end
 end
+
