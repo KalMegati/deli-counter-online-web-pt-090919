@@ -8,7 +8,7 @@ def line(array)
   else
     queue = "The line is currently:"
     array.length.times { |index|
-      queue += " #{index}. #{array[index]}"
+      queue += " #{index+1}. #{array[index]}"
     }
     puts queue
   end
